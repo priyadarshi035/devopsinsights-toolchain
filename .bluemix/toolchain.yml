@@ -42,10 +42,7 @@ services:
       dashboard_url: 'https://gbsjenkins.mybluemix.net'
   jira:
     service_id : jira
-    parameters:
-      type:Existing
-      project_key:"PLIB"
-      api_url:"https://gbsjira.in.edst.ibm.com"
+
        
   messaging:
     service_id: slack
