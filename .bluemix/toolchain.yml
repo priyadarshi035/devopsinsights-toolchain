@@ -17,7 +17,7 @@ template:
     git branch: >-
       [master](https://github.com/open-toolchain/devopsinsights-toolchain/tree/master)
 toolchain:
-  name: 'devopsinsights-toolchain-{{timestamp}}'
+  name: 'devopsinsights-toolchain-REST-API-{{timestamp}}'
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
@@ -38,8 +38,8 @@ services:
   jenkins:
     service_id: jenkins
     parameters:
-      name: ''
-      dashboard_url: ''
+      name: 'GBS-Jenkins'
+      dashboard_url: 'https://gbsjenkins.mybluemix.net'
   messaging:
     service_id: slack
 form:
