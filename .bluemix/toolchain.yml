@@ -40,12 +40,15 @@ services:
     parameters:
       name: 'GBS-Jenkins'
       dashboard_url: 'https://gbsjenkins.mybluemix.net'
+      
   jira:
-    service_id : jira
+    service_id: jira
     parameters:
-      dashboard_url:'https://gbsjira.in.edst.ibm.com'
-
-       
+      name: 'GBS-Jenkins'
+      api_url: 'https://gbsjenkins.mybluemix.net'
+      
+      
+      
   messaging:
     service_id: slack
 form:
