@@ -44,8 +44,8 @@ services:
   jira:
     service_id: jira
     parameters:
-      name: 'GBS-Jenkins'
-      api_url: 'https://gbsjenkins.mybluemix.net'
+      type: Existing
+      api_url: 'https://gbsjira.in.edst.ibm.com'
       
       
       
