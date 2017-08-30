@@ -44,7 +44,7 @@ services:
   jira:
     service_id: jira
     parameters:
-      type: Existing
+      type: 'Existing'
       api_url: 'https://gbsjira.in.edst.ibm.com'
       
       
