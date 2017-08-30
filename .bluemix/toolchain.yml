@@ -42,6 +42,8 @@ services:
       dashboard_url: 'https://gbsjenkins.mybluemix.net'
   jira:
     service_id : jira
+    parameters:
+      api_url:'https://gbsjira.in.edst.ibm.com'
 
        
   messaging:
