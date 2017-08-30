@@ -43,7 +43,7 @@ services:
   jira:
     service_id : jira
     parameters:
-      api_url:'https://gbsjira.in.edst.ibm.com'
+      dashboard_url:'https://gbsjira.in.edst.ibm.com'
 
        
   messaging:
